@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>iFund</title>
+<!--
+    <link rel="stylesheet" href="<?php echo e(URL::asset('css/bootstrap.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(URL::asset('css/bootstrap.min.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(URL::asset('css/modern-business.css')); ?>">
+   
+-->
+   <link href="css/our_style.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/our_style.css" rel="stylesheet">
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <script src="http://23.94.123.238/public/js/jquery-3.2.1.min.js"></script>
+  <script src="http://23.94.123.238/public/js/bootstrap.min.js"></script>
+
+<style>
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('http://localhost/ifound/public/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('http://localhost/ifound/public/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+  url('http://localhost/ifound/public/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+  url('http://localhost/ifound/public/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+  url('http://localhost/ifound/public/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+  url('http://localhost/ifound/public/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+</style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <?php echo $__env->make('nav', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    <!-- Header Carousel -->
+    
+
+    <!-- Page Content -->
+    <div style="position: relative; color: #ffffff; margin-top:50px;min-height: calc( 100% - 50px ); display: flex; align-items: center; background-image: url('http://23.94.123.238/public/images/home-slider-03.jpg'); background-size: 100% 100%;">
+    <div class="container">
+      <div class="row align-middle">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 ">
+          <div style="background-color: #8d170e; opacity: 0.8; filter: alpha(opacity=80); min-height: 250px; min-width:100%; text-align: center; padding-top:10px;">
+            <h1>Southeast Asia’s leading angel investing network</h1><br>
+            <div style="text-align: justify;margin-right:100px;margin-left:100px;"><h4 ">iFund is a leading angel investment network that aims to promote the development of a vibrant angel investing community in Singapore and China.</h4></div>
+          </div>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+    </div>
+  </div>
+  <div style="background-color:#8d170e; min-width:100%; min-height:150px; color:#ffffff; font-family:Helvetica; font-size:16pt; font-weight:500;padding-top:50px; padding-bottom:50px; line-height:24pt;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6" style="text-align:right;text-align: justify;">
+            iFund was established by a group of Singapore-based angel investors who are keen to help start-ups achieve traction and to meet their goals of value-creation to the community. iFund investors have a close networks of angel groups in China, Indonesia and Vietnam predominantly and close links to other regions in Southeast Asia.
+        </div>
+        <div class="col-sm-6" style="text-align:left; text-align: justify;">
+            This is done through our networking events, educational workshops and conferences that we hold to facilitate an active angel networking ecosystem. Our niche lies in help Singapore start-ups have access to the China market as part of their developmental growth.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="display:flex; align-items: center; min-height:100px;">
+    <div class="text-center" style="text-align:center; min-width:100%; font-family:Helvetica; color:#000000;">
+      <h1>Portfolio</h1>
+    </div>
+  </div>
+  <div style="display:flex; align-items: center; min-height:100px; color:#000000; text-align: center; padding:30px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8"><h3>With hundreds of companies invested in by BANSEA members over more than a decade, this is a non-exhaustive display of our members’ impressive track record.</h3></div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+  </div>
+  <div style="display:flex; align-items: center; min-height:100px; color:#000000; text-align: center; padding:30px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-5"></div>
+        <div class="col-5"></div>
+        <div class="col-5"></div>
+        <div class="col-5"></div>
+        <div class="col-5"></div>
+      </div>
+    </div>
+  </div>
+     <?php echo $__env->make('fooder', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <!-- /.container -->
+
+ 
+</body>
+
+</html>
